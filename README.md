@@ -1,63 +1,83 @@
-# Data Science Portfolio - Mark Kibui
+# **Data Science Portfolio - Mark Kibui**
 
-**Welcome to my data science portfolio!**
+Welcome to my data science portfolio!  
+I am a passionate data scientist with a strong background in civil engineering. I leverage my engineering expertise to create innovative, data-driven solutions for real-world challenges. Below, you'll find highlights of my projects, skills, and professional journey.
 
-I am a passionate data scientist with a strong background in civil engineering. I leverage my engineering skills to pursue innovative solutions to real-world problems through data-driven insights. Below, you'll find a showcase of my projects, skills, and professional journey.
+---
 
-**About Me**
+## **About Me**
 
-* **Education:**
-    * Diploma in Civil Engineering, The Technical University of Kenya (2014 - 2017)
-    * Data Science Program, Moringa School (August 2023 - May 2024)
-* **Location:** Nairobi, Kenya
-* **Interests:** Data science in construction, recommendation systems, and solving African-specific challenges with data.
+- **Education:**
+  - Diploma in Civil Engineering, The Technical University of Kenya (2014 - 2017)
+  - Data Science Program, Moringa School (August 2023 - May 2024)
+- **Location:** Nairobi, Kenya  
+- **Interests:**  
+  Data science in construction, recommendation systems, and solving African-specific challenges with data.
 
-**Skills**
+---
 
-* **Programming Languages:** Python, SQL, R
-* **Libraries & Tools:** Pandas, NumPy, Scikit-learn, TensorFlow, Matplotlib, Seaborn, Annoy
-* **Machine Learning:** Regression, Classification, Clustering, Random Forests, Neural Networks, RNNs
-* **Other Expertise:** Amazon Web Servise (AWS)
+## **Skills**
 
-**Featured Projects**
+- **Programming Languages:** Python, SQL, R  
+- **Libraries & Tools:** Pandas, NumPy, Scikit-learn, TensorFlow, Matplotlib, Seaborn  
+- **Machine Learning:** Regression, Classification, Clustering, Random Forests, Neural Networks, RNNs  
+- **Other Expertise:** Amazon Web Services (AWS), Exploratory Data Analysis (EDA)  
 
-**1. Spotify Music Recommendation System**
+---
 
-A recommendation system built with Python, Annoy, Pandas, and NumPy to suggest music based on user preferences. It leverages the Spotify 1 Million Songs dataset for training.
+## **Featured Projects**
 
-* **Key Features:**
-    * Encoded audio features and genre data for improved accuracy
-    * Model optimizations for user-specific recommendations
+### **1. Spotify Music Recommendation System**  
+A recommendation system built to suggest music based on user preferences, leveraging the Spotify 1 Million Songs dataset.  
 
-**2. Hard Hat Classification Model**
+- **Key Features:**  
+  - Encoded audio features and genre data for improved accuracy.  
+  - Optimized for user-specific recommendations using Annoy.  
+- **Technologies Used:** Python, Annoy, Pandas, NumPy  
 
-A safety recognition model classifying images annotated in COCO format to detect compliance with wearing hard hats. This Python-based project utilizes TensorFlow for model training.
+[View Repository](https://github.com/mark-kibui/Spotify_Recommendation)
 
-* **Key Features:**
-    * Trained using TensorFlow for image recognition
-    * Processes annotations in COCO JSON format for input preprocessing
+---
 
-**3. Diabetes Readmission Prediction**
+### **2. Hard Hat Classification Model**  
+A safety recognition model to classify images annotated in COCO format for detecting compliance with wearing hard hats.  
 
-Using patient medical data, this project utilizes Python and Scikit-learn to predict hospital readmissions. It employs detailed feature encoding for medications and diagnoses.
+- **Key Features:**  
+  - Utilized TensorFlow for training and image recognition.  
+  - Processed COCO JSON annotations for input preprocessing.  
+- **Technologies Used:** Python, TensorFlow  
 
-* **Key Features:**
-    * Ordinal encoding for target and categorical columns
-    * Feature engineering for medication trends
+[View Repository](#) <!-- Update with actual repo link -->
 
-**4. RNN Pneumonia Detection**
+---
 
-This project leverages Recurrent Neural Networks (RNNs) to identify pneumonia in medical imaging datasets. Implemented in Python with TensorFlow, the model includes:
+### **3. Diabetes Readmission Prediction**  
+A predictive model for hospital readmissions using patient medical data. This project focuses on encoding medication trends and diagnoses.  
 
-* **Key Features:**
-    * Preprocessed medical imaging data for deep learning pipelines
+- **Key Features:**  
+  - Ordinal encoding for categorical columns and the target variable.  
+  - Feature engineering for medication trends.  
+- **Technologies Used:** Python, Scikit-learn  
 
-**Contact**
+[View Repository](https://github.com/mark-kibui/Diabetic-Patients-Readmission)
 
-Feel free to reach out for collaborations or job opportunities:
+---
 
-* **Email:** johnmarkkibui@gmail.com
-* **GitHub:** github.com/mark-kibui [invalid URL removed]
-* **Location:** Nairobi, Kenya
+### **4. RNN Pneumonia Detection**  
+Leveraged Recurrent Neural Networks (RNNs) to identify pneumonia in medical imaging datasets.  
 
-Thank you for visiting my portfolio! Explore my GitHub repositories to dive deeper into my projects.
+- **Key Features:**  
+  - Preprocessed medical imaging data for deep learning pipelines.  
+  - Experimented with time-series modeling approaches.  
+- **Technologies Used:** Python, TensorFlow  
+
+[View Repository](#) <!-- Update with actual repo link -->
+
+---
+
+## **Contact**
+
+Feel free to reach out for collaborations or job opportunities:  
+
+- **Email:** johnmarkkibui@gmail.com  
+- **GitHub:** [mark-kibui](https://github.com/mark-kibui)
