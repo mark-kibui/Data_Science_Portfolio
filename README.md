@@ -64,14 +64,13 @@ A predictive model for hospital readmissions using patient medical data. This pr
 ---
 
 ### **4. RNN Pneumonia Detection**  
-Leveraged Recurrent Neural Networks (RNNs) to identify pneumonia in medical imaging datasets.  
+This is a project done with a team where we leveraged Recurrent Neural Networks (RNNs) to identify pneumonia in medical imaging datasets.
 
 - **Key Features:**  
-  - Preprocessed medical imaging data for deep learning pipelines.  
-  - Experimented with time-series modeling approaches.  
+  - Preprocessed medical imaging data for deep learning pipelines.    
 - **Technologies Used:** Python, TensorFlow  
 
-[View Repository](#) <!-- Update with actual repo link -->
+[View Repository](https://github.com/mark-kibui/Phase-4-Project)
 
 ---
 
