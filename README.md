@@ -17,7 +17,7 @@ I am a passionate data scientist with a strong background in civil engineering. 
 * **Programming Languages:** Python, SQL, R
 * **Libraries & Tools:** Pandas, NumPy, Scikit-learn, TensorFlow, Matplotlib, Seaborn, Annoy
 * **Machine Learning:** Regression, Classification, Clustering, Random Forests, Neural Networks, RNNs
-* **Other Expertise:** Data visualization, ETL processes, exploratory data analysis (EDA)
+* **Other Expertise:** Amazon Web Servise (AWS)
 
 **Featured Projects**
 
@@ -51,18 +51,13 @@ This project leverages Recurrent Neural Networks (RNNs) to identify pneumonia in
 
 * **Key Features:**
     * Preprocessed medical imaging data for deep learning pipelines
-    * Experimentation with time-series modeling approaches
 
 **Contact**
 
 Feel free to reach out for collaborations or job opportunities:
 
-* **Email:** mark.kibui@example.com
+* **Email:** johnmarkkibui@gmail.com
 * **GitHub:** github.com/mark-kibui [invalid URL removed]
 * **Location:** Nairobi, Kenya
 
-**Note:**
-
-* This is a basic structure for your GitHub Pages portfolio. 
-* You can customize it further by adding visuals (e.g., project screenshots), a call to action button for contacting you, or a navigation bar for easy access to different sections.
-* Remember to replace `github.com/mark-kibui` with your actual GitHub profile URL.
+Thank you for visiting my portfolio! Explore my GitHub repositories to dive deeper into my projects.
