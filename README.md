@@ -1,7 +1,8 @@
-# **Data Science Portfolio - Mark Kibui**
+#                                                 **Data Science Portfolio**
 
 Welcome to my data science portfolio!  
-I am a passionate data scientist with a strong background in civil engineering. I leverage my engineering expertise to create innovative, data-driven solutions for real-world challenges. Below, you'll find highlights of my projects, skills, and professional journey.
+I am a passionate data scientist with a strong background in civil engineering. I leverage my engineering expertise to create innovative, data-driven solutions for real-world challenges. 
+Below, you'll find highlights of my projects, skills, and professional journey.
 
 ---
 
