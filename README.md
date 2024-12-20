@@ -58,7 +58,7 @@ A predictive model for hospital readmissions using patient medical data. This pr
 - **Key Features:**  
   - Ordinal encoding for categorical columns and the target variable.  
   - Feature engineering for medication trends.  
-- **Technologies Used:** Python, Scikit-learn  
+- **Technologies Used:** Python, Scikit-learn
 
 [View Repository](https://github.com/mark-kibui/Diabetic-Patients-Readmission)
 
@@ -69,7 +69,7 @@ This is a project done with a team where we leveraged Recurrent Neural Networks 
 
 - **Key Features:**  
   - Preprocessed medical imaging data for deep learning pipelines.    
-- **Technologies Used:** Python, TensorFlow  
+- **Technologies Used:** Python, TensorFlow
 
 [View Repository](https://github.com/mark-kibui/Phase-4-Project)
 
