@@ -41,13 +41,13 @@ Developed a recommendation system to suggest music tailored to user preferences,
 
 ---
 
-### [2. Diabetes Readmission Prediction](https://github.com/mark-kibui/Diabetic-Patients-Readmission)  
-Built a machine learning model to predict hospital readmissions based on patient medical data, focusing on medication trends and diagnostic history.  
+### [2. Belgian House Prediction]((https://github.com/mark-kibui/Predict-House-Prices.git))  
+In this project, I built a machine learning model to predict house prices in the Belgian housing market. The goal was to provide insights for buyers and sellers to optimize pricing strategies.
 
-- **Key Features:**  
-  - Ordinal encoding for complex categorical data  
-  - Engineered features to analyze medication patterns  
-- **Technologies Used:** Python, Scikit-learn  
+Key Features:
+- Data Exploration & Feature Engineering: Analyzed key features like house area, location, and construction year.
+- Modeling: Compared Random Forest and XGBoost models. Random Forest achieved the best performance with an R² score of 0.89 and MAE of 23,544.41.
+- Business Value: The model helps real estate agents and investors make data-driven decisions by identifying key factors that influence property prices. 
 
 ---
 
