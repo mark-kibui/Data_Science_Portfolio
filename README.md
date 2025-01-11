@@ -31,7 +31,7 @@ I am a passionate data scientist with a civil engineering background, merging an
 
 ## Featured Projects
 
-### [1. Spotify Music Recommendation System](https://github.com/mark-kibui/Spotify_Recommendation)  
+### [1. Spotify Music Recommendation System](https://github.com/mark-kibui/Spotify_Data.git)  
 Spotify Music Trends Analysis
 Explored Spotify's Million Songs dataset to uncover insights into the music industry's evolution. The project focused on analyzing audio features such as danceability, energy, tempo, and popularity across different genres and years.
 
