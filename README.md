@@ -32,23 +32,25 @@ I am a passionate data scientist with a civil engineering background, merging an
 ## Featured Projects
 
 ### [1. Spotify Music Recommendation System](https://github.com/mark-kibui/Spotify_Recommendation)  
-Developed a recommendation system to suggest music tailored to user preferences, utilizing the Spotify 1 Million Songs dataset.
+Spotify Music Trends Analysis
+Explored Spotify's Million Songs dataset to uncover insights into the music industry's evolution. The project focused on analyzing audio features such as danceability, energy, tempo, and popularity across different genres and years.
 
-- **Key Features:**  
-  - Encoded audio features and genres for enhanced personalization  
-  - Optimized recommendations using the Annoy library  
-- **Technologies Used:** Python, Annoy, Pandas, NumPy  
+Key Highlights:
+
+Performed exploratory data analysis (EDA) to identify trends in music preferences over time.
+Developed visualizations to show how genres evolve and how song features relate to popularity.
+Utilized interactive plots for dynamic insights into music trends. 
 
 ---
 
 ### [2. Belgian House Prediction](https://github.com/mark-kibui/Predict-House-Prices.git)
 In this project, I built a machine learning model to predict house prices in the Belgian housing market. The goal was to provide insights for buyers and sellers to optimize pricing strategies.
 
-Key Features:
+- **Key Features:**
 - Data Exploration & Feature Engineering: Analyzed key features like house area, location, and construction year.
 - Modeling: Compared Random Forest and XGBoost models. Random Forest achieved the best performance with an R² score of 0.89 and MAE of 23,544.41.
 - Business Value: The model helps real estate agents and investors make data-driven decisions by identifying key factors that influence property prices. 
-
+- Technologies Used:** Python, Pandas, Matplotlib, Seaborn, Plotly
 ---
 
 ### [3. RNN Pneumonia Detection](https://github.com/mark-kibui/Phase-4-Project)  
