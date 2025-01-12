@@ -57,7 +57,14 @@ In this project, I built a machine learning model to predict house prices in the
 Collaborated on a project to leverage Recurrent Neural Networks (RNNs) for identifying pneumonia in medical imaging datasets.  
 
 - **Key Features:**  
-  - Preprocessed medical imaging data for deep learning pipelines  
+  - Preprocessed medical imaging data for deep learning pipelines
+  - The performance is as follows:
+      - Validation Loss: 0.2682477533817291
+      - -Validation Accuracy: 0.875
+      - -Test Loss: 0.23323379456996918
+      - -Test Accuracy: 0.9150640964508057
+
+The validation accuracy of 0.87 performed better and ResNet50V2 proved to be better for identify pneumonia.  
   - Developed a robust classification model for healthcare applications  
 - **Technologies Used:** Python, TensorFlow  
 
