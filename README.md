@@ -53,7 +53,7 @@ In this project, I built a machine learning model to predict house prices in the
 - **Technologies Used:** Python, Pandas, Matplotlib, Seaborn, Plotly
 ---
 
-### [3. RNN Pneumonia Detection](https://github.com/mark-kibui/Phase-4-Project)  
+### [4. RNN Pneumonia Detection](https://github.com/mark-kibui/Phase-4-Project)  
 Collaborated on a project to leverage Recurrent Neural Networks (RNNs) for identifying pneumonia in medical imaging datasets.  
 
 - **Key Features:**  
