@@ -70,6 +70,20 @@ The validation accuracy of 0.87 performed better and ResNet50V2 proved to be bet
 
 ---
 
+### [3. Bank_Customer_Segmentation](https://github.com/mark-kibui/Bank-Customer-Segmentation.git)
+Segment bank customers into distinct groups to help the bank tailor marketing strategies, products, and services effectively.
+
+- **Key Features:**  
+  - Preprocessed customer demographic and behavioral data:
+    - Handled missing values, encoded categorical variables, and scaled numerical features.
+  - Engineered features such as customer age,.  
+  - Performed K-means clustering:
+    - Determined 6 optimal clusters using the Elbow method.
+    - Conducted silhouette analysis with an average silhouette score of 0.41.
+    - Identified clusters with distinct spending habits and engagement levels.
+    - Highlighted outlier clusters representing unique customer behaviors.
+
+- **Technologies Used:** Python, Scikit-learn, Pandas, Matplotlib, Seaborn
 ## Contact
 
 Let’s collaborate!  
