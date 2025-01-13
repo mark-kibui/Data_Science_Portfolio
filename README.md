@@ -35,7 +35,7 @@ I am a passionate data scientist with a civil engineering background, merging an
 Spotify Music Trends Analysis
 Explored Spotify's Million Songs dataset to uncover insights into the music industry's evolution. The project focused on analyzing audio features such as danceability, energy, tempo, and popularity across different genres and years.
 
-Key Highlights:
+**Key Features:**
 
 Performed exploratory data analysis (EDA) to identify trends in music preferences over time.
 Developed visualizations to show how genres evolve and how song features relate to popularity.
