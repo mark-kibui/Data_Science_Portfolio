@@ -50,11 +50,11 @@ In this project, I built a machine learning model to predict house prices in the
 - Data Exploration & Feature Engineering: Analyzed key features like house area, location, and construction year.
 - Modeling: Compared Random Forest and XGBoost models. Random Forest achieved the best performance with an R² score of 0.89 and MAE of 23,544.41.
 - Business Value: The model helps real estate agents and investors make data-driven decisions by identifying key factors that influence property prices. 
-
+- **Technologies Used:**  Python, Pandas, Matplotlib, Seaborn, Plotly
   
 ---
 
-### [4. RNN Pneumonia Detection](https://github.com/mark-kibui/Phase-4-Project)  
+### [3. RNN Pneumonia Detection](https://github.com/mark-kibui/Phase-4-Project)  
 Collaborated on a project to leverage Recurrent Neural Networks (RNNs) for identifying pneumonia in medical imaging datasets.  
 
 - **Key Features:**  
@@ -71,7 +71,7 @@ The validation accuracy of 0.87 performed better and ResNet50V2 proved to be bet
 
 ---
 
-### [3. Bank_Customer_Segmentation](https://github.com/mark-kibui/Bank-Customer-Segmentation.git)
+### [4. Bank_Customer_Segmentation](https://github.com/mark-kibui/Bank-Customer-Segmentation.git)
 Segment bank customers into distinct groups to help the bank tailor marketing strategies, products, and services effectively.
 
 - **Key Features:**  
@@ -85,6 +85,9 @@ Segment bank customers into distinct groups to help the bank tailor marketing st
     - Highlighted outlier clusters representing unique customer behaviors.
 
 - **Technologies Used:** Python, Scikit-learn, Pandas, Matplotlib, Seaborn
+
+---
+
 ## Contact
 
 Let’s collaborate!  
