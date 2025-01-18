@@ -76,11 +76,9 @@ Segment bank customers into distinct groups to help the bank tailor marketing st
 
 - **Key Features:**  
   - Preprocessed customer demographic and behavioral data:
-    - Handled missing values, encoded categorical variables, and scaled numerical features.
-  - Engineered features such as customer age,.  
+    - Handled missing values, encoded categorical variables, and scaled numerical features. 
   - Performed K-means clustering:
-    - Determined 6 optimal clusters using the Elbow method.
-    - Conducted silhouette analysis with an average silhouette score of 0.41.
+    - Determined 4 optimal clusters using the Elbow method.
     - Identified clusters with distinct spending habits and engagement levels.
     - Highlighted outlier clusters representing unique customer behaviors.
 
