@@ -31,11 +31,24 @@ I am a passionate data scientist with a civil engineering background, merging an
 
 ## Featured Projects
 
-### [1. Spotify Music Analysis](https://github.com/mark-kibui/Spotify_Data.git)  
+### [1. Bank_Fraud_Detection](https://github.com/mark-kibui/Bank-Fraud-detection.git)  
+
+In this project, I built a machine learning model to predict fraudulent transactions using a dataset from Kaggle. The goal was to detect fraud and prevent financial losses for businesses.
+
+**Key Features:**
+
+Data Exploration & Feature Engineering: Analyzed key features like transaction amount, customer demographics, and geographical information.
+Class Imbalance Handling: Addressed class imbalance by calculating and assigning dynamic class weights to ensure fair training.
+Modeling: Implemented Random Forest and optimized its performance for fraud detection.
+Business Value: The model helps financial institutions and businesses minimize losses by detecting fraudulent transactions early.
+Technologies Used: Python, PySpark, Pandas, Matplotlib, Seaborn
+
+---
+
+### [2. Spotify Music Analysis](https://github.com/mark-kibui/Spotify_Data.git)  
 Spotify Music Trends Analysis
 Explored Spotify's Million Songs dataset to uncover insights into the music industry's evolution. The project focused on analyzing audio features such as danceability, energy, tempo, and popularity across different genres and years.
 Find a snapshot of the PowerBi dashboard in pdf format link in the repository's readme.
-
 
 **Key Features:**
 
@@ -45,7 +58,7 @@ Utilized interactive plots for dynamic insights into music trends.
 
 ---
 
-### [2. Belgian House Prediction](https://github.com/mark-kibui/Predict-House-Prices.git)
+### [3. Belgian House Prediction](https://github.com/mark-kibui/Predict-House-Prices.git)
 In this project, I built a machine learning model to predict house prices in the Belgian housing market. The goal was to provide insights for buyers and sellers to optimize pricing strategies.
 
 - **Key Features:**
@@ -56,7 +69,7 @@ In this project, I built a machine learning model to predict house prices in the
   
 ---
 
-### [3. RNN Pneumonia Detection](https://github.com/mark-kibui/Phase-4-Project)  
+### [4. RNN Pneumonia Detection](https://github.com/mark-kibui/Phase-4-Project)  
 Collaborated on a project to leverage Recurrent Neural Networks (RNNs) for identifying pneumonia in medical imaging datasets.  
 
 - **Key Features:**  
