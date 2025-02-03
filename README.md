@@ -31,7 +31,7 @@ I am a passionate data scientist with a civil engineering background, merging an
 
 ## Featured Projects
 
-### [1. Bank_Fraud_Detection](https://github.com/mark-kibui/Bank-Fraud-detection.git)  
+### [1. Bank Fraud Detection](https://github.com/mark-kibui/Bank-Fraud-detection.git)  
 
 In this project, I built a machine learning model to predict fraudulent transactions using a dataset from Kaggle. The goal was to detect fraud and prevent financial losses for businesses.
 
