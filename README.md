@@ -66,7 +66,7 @@ In this project, I built a machine learning model to predict house prices in the
 - Data Exploration & Feature Engineering: Analyzed key features like house area, location, and construction year.
 - Modeling: Compared Random Forest and XGBoost models. Random Forest achieved the best performance with an R² score of 0.89 and MAE of 23,544.41.
 - Business Value: The model helps real estate agents and investors make data-driven decisions by identifying key factors that influence property prices. 
-- **Technologies Used:**  Python, Pandas, Matplotlib, Seaborn, Plotly
+- Technologies Used: Python, Pandas, Matplotlib, Seaborn, Plotly
   
 ---
 
