@@ -1,5 +1,5 @@
 title: Johnmark Kibui
 description: Data Scientist | Passionate about using data-driven solutions to solve real-world challenges.
 logo: Images/2825 B-W.jpg
-remote_theme: "mmistakes/minimal-mistakes"
+theme: jekyll-theme-minimal
 email: johnmarkkibui@gmail.com
