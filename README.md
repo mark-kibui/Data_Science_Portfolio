@@ -59,7 +59,7 @@ Utilized interactive plots for dynamic insights into music trends.
 
 ---
 
-### [3. Belgian House Prediction](https://github.com/mark-kibui/Predict-House-Prices.git)
+### [3. Belgian House Price Prediction](https://github.com/mark-kibui/Predict-House-Prices.git)
 In this project, I built a machine learning model to predict house prices in the Belgian housing market. The goal was to provide insights for buyers and sellers to optimize pricing strategies.
 
 - **Key Features:**
