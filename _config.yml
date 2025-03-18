@@ -5,44 +5,92 @@
 # email: johnmarkkibui@gmail.com
 
 
+# Site settings
 title: "Johnmark Kibui"
-description: "Data Scientist | Turning Data into Impactful Solutions"
-logo: "Images/2825 B-W.jpg"
+description: "Data Scientist | Passionate about solving real-world problems with data."
+logo: "assets/images/profile.jpg"  # Update the path for your profile image
+favicon: "assets/images/favicon.ico"
 
 # Theme Configuration
-theme: jekyll-theme-minimal
-show_downloads: true
-favicon: "Images/favicon.ico"
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "contrast" # Other options: dark, neon, solarized, etc.
 
-# Social Links
-email: "johnmarkkibui@gmail.com"
-# github: "mark-kibui"
-# twitter: "your_twitter_handle"  # Update or remove if not needed
-# linkedin: "your_linkedin_handle"  # Update or remove if not needed
+# Author Information
+author:
+  name: "Johnmark Kibui"
+  avatar: "assets/images/profile.jpg"
+  bio: "Data Scientist | Machine Learning | AI Enthusiast"
+  location: "Nairobi, Kenya"
+  email: "johnmarkkibui@gmail.com"
+  github: "mark-kibui"
+  twitter: "your_twitter_handle"
+  linkedin: "your_linkedin_handle"
 
 # Navigation Menu
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Projects"
-    url: "/projects"
-  - title: "Blog"
-    url: "/blog"
-  - title: "Contact"
-    url: "/contact"
+header_pages:
+  - about.md
+  - projects.md
+  - blog.md
+  - contact.md
 
-# Custom Styling (Optional)
-style: |
-  body {
-    font-family: 'Poppins', sans-serif;
-    background: #f4f4f9;
-    color: #333;
-  }
-  h1, h2, h3 {
-    color: #0078D4;
-  }
-  .container {
-    max-width: 800px;
-    margin: auto;
-  }
+# Sidebar Settings
+sidebar:
+  nav: "main"
+  - title: "About Me"
+    text: "I'm a Data Scientist passionate about using machine learning and AI to create real-world impact."
+    image: "assets/images/profile.jpg"
+
+# Footer Links
+footer:
+  show_powered_by: false
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/mark-kibui"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/yourprofile"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:johnmarkkibui@gmail.com"
+
+# Plugins (For Extra Features)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Markdown Processing
+markdown: kramdown
+highlighter: rouge
+paginate: 5
+
+# Defaults for Pages & Posts
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+
+# Social Media Sharing
+social:
+  links:
+    - "https://github.com/mark-kibui"
+    - "https://linkedin.com/in/johnmark-kibui"
+    - "mailto:johnmarkkibui@gmail.com"
+
+# Google Analytics (Optional)
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "UA-XXXXXXXXX-X"
+    anonymize_ip: false
 
