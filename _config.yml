@@ -8,8 +8,8 @@
 # Site settings
 title: "Johnmark Kibui"
 description: "Data Scientist | Passionate about solving real-world problems with data."
-logo: "assets/images/profile.jpg"  # Update the path for your profile image
-favicon: "assets/images/favicon.ico"
+logo: "assets/images/Selfie- Profile_Photo.jpg"  # Ensure this image exists in the path
+favicon: "assets/images/favicon.ico"  # Ensure this file exists
 
 # Theme Configuration
 remote_theme: "mmistakes/minimal-mistakes"
@@ -23,8 +23,8 @@ author:
   location: "Nairobi, Kenya"
   email: "johnmarkkibui@gmail.com"
   github: "mark-kibui"
-  twitter: "your_twitter_handle"
-  linkedin: "your_linkedin_handle"
+  twitter: "johnmark_kibui"  # Updated with actual handle
+  linkedin: "johnmark-kibui"  # Updated with actual handle
 
 # Navigation Menu
 header_pages:
@@ -33,28 +33,24 @@ header_pages:
   - blog.md
   - contact.md
 
-# Sidebar Settings
-sidebar:
-  nav: "main"
-  - title: "About Me"
-    text: "I'm a Data Scientist passionate about using machine learning and AI to create real-world impact."
-    image: "assets/images/profile.jpg"
+# Removed sidebar section (theme handles sidebar through author_profile)
+# Minimal Mistakes uses author_profile: true in front matter/defaults instead
 
 # Footer Links
 footer:
-  show_powered_by: false
+  show_powered_by: false  # Verify theme license requirements
   links:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/mark-kibui"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/yourprofile"
+      url: "https://linkedin.com/in/johnmark-kibui"  # Updated URL
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:johnmarkkibui@gmail.com"
 
-# Plugins (For Extra Features)
+# Plugins (Ensure these are in Gemfile)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -72,7 +68,7 @@ defaults:
       type: "pages"
     values:
       layout: "single"
-      author_profile: true
+      author_profile: true  # This controls the sidebar appearance
   - scope:
       path: ""
       type: "posts"
@@ -80,17 +76,20 @@ defaults:
       layout: "single"
       author_profile: true
 
-# Social Media Sharing
+# Social Media Sharing (Theme-preferred format)
 social:
+  name: "Johnmark Kibui"
   links:
-    - "https://github.com/mark-kibui"
-    - "https://linkedin.com/in/johnmark-kibui"
-    - "mailto:johnmarkkibui@gmail.com"
+    - icon: "fab fa-github"
+      url: "https://github.com/mark-kibui"
+    - icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/johnmark-kibui"
+    - icon: "fas fa-envelope"
+      url: "mailto:johnmarkkibui@gmail.com"
 
-# Google Analytics (Optional)
-analytics:
-  provider: "google"
-  google:
-    tracking_id: "UA-XXXXXXXXX-X"
-    anonymize_ip: false
-
+# Google Analytics (Uncomment when ready)
+# analytics:
+#   provider: "google"
+#   google:
+#     tracking_id: "UA-XXXXXXXXX-X"  # Replace with actual ID
+#     anonymize_ip: true  # Recommended for GDPR compliance
