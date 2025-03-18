@@ -8,12 +8,13 @@
 # Site settings
 title: "Johnmark Kibui"
 description: "Data Scientist | Passionate about solving real-world problems with data."
-logo: "assets/images/Selfie- Profile_Photo.jpg"  # Ensure this image exists in the path
-favicon: "assets/images/favicon.ico"  # Ensure this file exists
+logo: "assets/images/profile.jpg"
+favicon: "assets/images/favicon.ico"
+url: "https://mark-kibui.github.io"  # Update with your actual domain/GH Pages URL
 
-# Theme Configuration
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "contrast" # Other options: dark, neon, solarized, etc.
+# Theme Configuration (pinned to last Jekyll 3.x compatible version)
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "contrast"
 
 # Author Information
 author:
@@ -23,8 +24,12 @@ author:
   location: "Nairobi, Kenya"
   email: "johnmarkkibui@gmail.com"
   github: "mark-kibui"
-  twitter: "johnmark_kibui"  # Updated with actual handle
-  linkedin: "johnmark-kibui"  # Updated with actual handle
+  twitter: "johnmark_kibui"
+  linkedin: "johnmark-kibui"
+  stackoverflow: "your_user_id"  # Optional
+  mastodon:  # Optional
+    - username: "your_username"
+      instance: "your_instance.social"
 
 # Navigation Menu
 header_pages:
@@ -33,63 +38,88 @@ header_pages:
   - blog.md
   - contact.md
 
-# Removed sidebar section (theme handles sidebar through author_profile)
-# Minimal Mistakes uses author_profile: true in front matter/defaults instead
-
-# Footer Links
-footer:
-  show_powered_by: false  # Verify theme license requirements
-  links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/mark-kibui"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/johnmark-kibui"  # Updated URL
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:johnmarkkibui@gmail.com"
-
-# Plugins (Ensure these are in Gemfile)
+# GitHub Pages compatible plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-include-cache  # Required for include_cached tag polyfill
 
 # Markdown Processing
 markdown: kramdown
 highlighter: rouge
-paginate: 5
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-# Defaults for Pages & Posts
+# Defaults
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
       layout: "single"
-      author_profile: true  # This controls the sidebar appearance
+      author_profile: true
+      comments: false
+      share: true
+      related: false
   - scope:
-      path: ""
+      path: "_posts"
       type: "posts"
     values:
       layout: "single"
       author_profile: true
+      comments: true
+      share: true
+      related: true
 
-# Social Media Sharing (Theme-preferred format)
+# Social Media Links (Theme-compatible format)
 social:
-  name: "Johnmark Kibui"
   links:
-    - icon: "fab fa-github"
+    - label: "GitHub"
+      icon: "fab fa-github"
       url: "https://github.com/mark-kibui"
-    - icon: "fab fa-linkedin"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
       url: "https://linkedin.com/in/johnmark-kibui"
-    - icon: "fas fa-envelope"
+    - label: "Email"
+      icon: "fas fa-envelope"
       url: "mailto:johnmarkkibui@gmail.com"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/johnmark_kibui"
 
-# Google Analytics (Uncomment when ready)
+# Footer Settings
+footer:
+  show_powered_by: false
+  show_repo: true  # Shows "View repository" link if set
+  repo_url: "https://github.com/mark-kibui/Data_Science_Portfolio"
+
+# Pagination (for blog posts)
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Optional Commenting (Disable if not using)
+comments:
+  provider: "disqus"  # Change to "utterances" for GitHub-based comments
+  disqus:
+    shortname: "your-disqus-shortname"
+
+# Optional Search
+search: true
+search_full_content: true
+
+# Optional Breadcrumbs
+breadcrumbs: true
+
+# Optional Table of Contents
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "fas fa-list"
+
+# Optional Analytics (Uncomment when ready)
 # analytics:
 #   provider: "google"
 #   google:
-#     tracking_id: "UA-XXXXXXXXX-X"  # Replace with actual ID
-#     anonymize_ip: true  # Recommended for GDPR compliance
+#     tracking_id: "UA-XXXXXXX-X"
+#     anonymize_ip: true
