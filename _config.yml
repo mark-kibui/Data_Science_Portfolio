@@ -1,5 +1,48 @@
-title: Johnmark Kibui
-description: Data Scientist | Passionate about using data-driven solutions to solve real-world challenges.
-logo: Images/2825 B-W.jpg
+# title: Johnmark Kibui
+# description: Data Scientist | Passionate about using data-driven solutions to solve real-world challenges.
+# logo: Images/2825 B-W.jpg
+# theme: jekyll-theme-minimal
+# email: johnmarkkibui@gmail.com
+
+
+title: "Johnmark Kibui"
+description: "Data Scientist | Turning Data into Impactful Solutions"
+logo: "Images/2825 B-W.jpg"
+
+# Theme Configuration
 theme: jekyll-theme-minimal
-email: johnmarkkibui@gmail.com
+show_downloads: true
+favicon: "Images/favicon.ico"
+
+# Social Links
+email: "johnmarkkibui@gmail.com"
+# github: "mark-kibui"
+# twitter: "your_twitter_handle"  # Update or remove if not needed
+# linkedin: "your_linkedin_handle"  # Update or remove if not needed
+
+# Navigation Menu
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Projects"
+    url: "/projects"
+  - title: "Blog"
+    url: "/blog"
+  - title: "Contact"
+    url: "/contact"
+
+# Custom Styling (Optional)
+style: |
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f9;
+    color: #333;
+  }
+  h1, h2, h3 {
+    color: #0078D4;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+
