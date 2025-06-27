@@ -32,7 +32,21 @@ I am a passionate data scientist with a civil engineering background, merging an
 
 ## Featured Projects
 
-### [1. Bank Fraud Detection](https://github.com/mark-kibui/Bank-Fraud-detection.git)  
+### [IFC Structural Element Analysis](https://github.com/mark-kibui/IFC_data_extraction.git)
+
+In this project, I extract and analyzed structural elements from a Revit-exported IFC model to uncover meaningful patterns within a complex BIM dataset. The focus was on identifying and visualizing key object types such as **rebar bars**, **beams**, **columns**, and **slabs**.
+
+**Key Features:**
+
+- **Data Exploration & Filtering**: Isolated relevant structural components from raw IFC-exported data, focusing on object types important for construction analysis and QA.
+- **Visualization**: Created bar charts to show the distribution and frequency of key elements, including null counts across object types.
+- **Data Quality Checks**: Identified missing values across structural categories to support data validation and cleanup efforts.
+- **Practical Application**: Enables BIM professionals to assess model content, identify inconsistencies, and prepare data for automation or reporting.
+- **Technologies Used**: Python, Pandas, Matplotlib  
+  
+---
+
+### [Bank Fraud Detection](https://github.com/mark-kibui/Bank-Fraud-detection.git)  
 
 In this project, I built a machine learning model to predict fraudulent transactions using a dataset from Kaggle. The goal was to detect fraud and prevent financial losses for businesses.
 
@@ -46,7 +60,7 @@ Technologies Used: Python, PySpark, Pandas, Matplotlib, Seaborn
 
 ---
 
-### [2. Spotify Music Analysis](https://github.com/mark-kibui/Spotify_Data.git)  
+### [Spotify Music Analysis](https://github.com/mark-kibui/Spotify_Data.git)  
 Spotify Music Trends Analysis
 Explored Spotify's Million Songs dataset to uncover insights into the music industry's evolution. The project focused on analyzing audio features such as danceability, energy, tempo, and popularity across different genres and years.
 Find a snapshot of the PowerBi dashboard in pdf format link in the repository's readme.
@@ -59,7 +73,7 @@ Utilized interactive plots for dynamic insights into music trends.
 
 ---
 
-### [3. Belgian House Price Prediction](https://github.com/mark-kibui/Predict-House-Prices.git)
+### [Belgian House Price Prediction](https://github.com/mark-kibui/Predict-House-Prices.git)
 In this project, I built a machine learning model to predict house prices in the Belgian housing market. The goal was to provide insights for buyers and sellers to optimize pricing strategies.
 
 - **Key Features:**
@@ -70,7 +84,7 @@ In this project, I built a machine learning model to predict house prices in the
   
 ---
 
-### [4. RNN Pneumonia Detection](https://github.com/mark-kibui/Phase-4-Project)  
+### [RNN Pneumonia Detection](https://github.com/mark-kibui/Phase-4-Project)  
 Collaborated on a project to leverage Recurrent Neural Networks (RNNs) for identifying pneumonia in medical imaging datasets.  
 
 - **Key Features:**  
@@ -87,7 +101,7 @@ The validation accuracy of 0.87 performed better and ResNet50V2 proved to be bet
 
 ---
 
-### [4. Bank_Customer_Segmentation](https://github.com/mark-kibui/Bank-Customer-Segmentation.git)
+### [Bank_Customer_Segmentation](https://github.com/mark-kibui/Bank-Customer-Segmentation.git)
 Segment bank customers into distinct groups to help the bank tailor marketing strategies, products, and services effectively.
 
 - **Key Features:**  
