@@ -24,7 +24,7 @@ I am a passionate data scientist with a civil engineering background, merging an
 - **Data Analysis & Visualization:** Pandas, NumPy, Matplotlib, Seaborn  
 - **Machine Learning:** Regression, Classification, Clustering, Random Forest, Neural Networks, RNNs  
 - **Deep Learning Frameworks:** TensorFlow  
-- **Cloud Computing:** Amazon Web Services (AWS)  
+- **Cloud Computing:**  Microsoft Azure (In Progress)
 - **A/B Testing & Experimentation:** Hypothesis Testing, Statistical Significance, Conversion Rate Optimization  
 - **Other Expertise:** Exploratory Data Analysis (EDA), Feature Engineering, Data Encoding  
 
